@@ -1,11 +1,19 @@
+---
+layout: project
+type: project
+image: img/cotton/cotton-square.png
+title: "Balanced Trees"
+date: 2024
+published: true
+labels:
+  - Trees
+  - Java
+summary: "Implements a database of sayings in Hawaiian and English, with explanations in both languages. The database allows
+insertion, lookup, and retrieval of sayings based on certain requirements. Use a balanced tree structure to maintain an ordered set of sayings.
+Implementing functions for specific queries like finding sayings that contain particular words in either language."
+---
+
 Group: Justine Afaga, Blake Ilagan, Kayla Young
-
-
-The basic premise: 
-1) We need to implement a database of sayings in Hawaiian and English, with explanations in both languages.
-2) The database we make must allow insertion, lookup, and retrieval of sayings based on certain requirements
-3) We use a balanced tree structure to maintain an ordered set of sayings.
-4) Implementing functions for specific queries like finding sayings that contain particular words in either language.
 
 
 Creating a class that holds the Hawaiian and English sayings, in addition to the definition: 
