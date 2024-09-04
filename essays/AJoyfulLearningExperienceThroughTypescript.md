@@ -9,8 +9,6 @@ labels:
   - Athletic Software Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
-
 **A Joyful Learning Experience Through Typescript
 I have been enjoying using Typescript so far in this course, as someone who is completely new to it. 
 Additionally, I have already learned so much about it just from the short time that we have spent learning about it.
