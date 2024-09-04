@@ -8,8 +8,6 @@ labels:
   - Typescript
   - Athletic Software Engineering
 ---
-
-**A Joyful Learning Experience Through Typescript
 I have been enjoying using Typescript so far in this course, as someone who is completely new to it. 
 Additionally, I have already learned so much about it just from the short time that we have spent learning about it.
 It is similar to Java, which I spent two semesters learning about.
