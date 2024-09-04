@@ -12,8 +12,11 @@ labels:
 summary: "Chooses a optimal army using the divide and conquer algorithm."
 ---
 Choosing an Optimal Army Using Divide and Conquer
+
 Explanation: Divide and conquer would be a good algorithm for choosing an optimal army configuration from codices with a points budget because of its ability to manage complexity effectively while optimizing unit selection. By dividing the problem into smaller subsets based on unit attributes and combat roles, such as speed, armor, and damage capabilities, this approach allows for independent optimization within each subset. Having this division ensures that the chosen units are thoroughly evaluated for their effectiveness. Additionally, divide and conquer scales well with increasing numbers of codices and units. 
+
 Data Structure: Using lists for storing units in a divide and conquer approach is good for its simplicity, easy manipulation, and efficient indexing, which is essential for splitting the units into subproblems. Lists maintain order, help in recursive division, and provide a O(1) time complexity for accessing elements. Recursive splitting is central to the divide and conquer approach, as it breaks down the problem into manageable chunks and combines solutions efficiently to respect the point budget while maximizing effectiveness. 
+
 Proof of Effectiveness: The divide and conquer algorithm ensures that all possible combinations of units are considered within the points constraint by recursively breaking down the problem into smaller subproblems. This method systematically looks at all the subsets of units and assesses their total point costs and effectiveness, which take a long time to handle in large data sets. By dividing the unit list into smaller sections, the algorithm can efficiently manage and evaluate each subset, ensuring that no potential combination is overlooked. The merging function helps this process by combining the optimal solutions from these subproblems. It evaluates the combined point costs and effectiveness of every possible pair of left and right solutions, ensuring that the best possible combination of units is selected. Therefore, the merging function guarantees that the final selected combination is the most effective one, balancing both the points constraint and the overall combat capability of the units.
 
 """ 
