@@ -12,8 +12,7 @@ summary: "Implements a database of sayings in Hawaiian and English, with explana
 insertion, lookup, and retrieval of sayings based on certain requirements. Use a balanced tree structure to maintain an ordered set of sayings.
 Implementing functions for specific queries like finding sayings that contain particular words in either language."
 ---
-
-```java // Group: Justine Afaga, Blake Ilagan, Kayla Young
+// Group: Justine Afaga, Blake Ilagan, Kayla Young
 // Creating a class that holds the Hawaiian and English sayings, in addition to the definition: 
 /* Representing a Hawaiian saying along with its English translations and explanations */
 
