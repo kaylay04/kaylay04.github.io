@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/tree.jpg
 title: "Balanced Trees"
 date: 2024
 published: true
