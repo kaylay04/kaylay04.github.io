@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/tree.jpg
+image: img/Tree.jpg
 title: "Balanced Trees"
 date: 2024
 published: true
