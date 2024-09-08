@@ -13,11 +13,11 @@ summary: "This code initializes a graph to represent users and their posts, addi
 It includes functions to identify and highlight the top 10 important posts, interesting users, and trending posts based on comments and views. Additionally, it adds edges for quoted or referred posts.
 This code also displays the results, showing the important posts, interesting users, and trending posts."
 ---
-"""
+
     Justine Afaga
     Alexis Karl Buted
     Kayla Young
-"""
+
 
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
