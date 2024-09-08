@@ -12,19 +12,19 @@ summary: "Implements a database of sayings in Hawaiian and English, with explana
 insertion, lookup, and retrieval of sayings based on certain requirements. Use a balanced tree structure to maintain an ordered set of sayings.
 Implementing functions for specific queries like finding sayings that contain particular words in either language."
 ---
-```java
-// Group: Justine Afaga, Blake Ilagan, Kayla Young
-// Creating a class that holds the Hawaiian and English sayings, in addition to the definition: /* Representing a Hawaiian saying along with its English translations and explanations */
 
-public class Saying { 
+    // Group: Justine Afaga, Blake Ilagan, Kayla Young
+    /* Creating a class that holds the Hawaiian and English sayings, in addition to the definition: Representing a Hawaiian saying along with its English translations and explanations */
+
+    public class Saying { 
     private String Hawaiian; 
     private String English; 
     private String hMeaning; 
     private String eMeaning; 
-}
+    }
 
-    // Creating a constructor for initializing object
-    public Saying(String Hawaiian, String English, String hMeaning, String eMeaning) {
+     // Creating a constructor for initializing object
+     public Saying(String Hawaiian, String English, String hMeaning, String eMeaning) {
         this.Hawaiian = Hawaiian;
         this.English = English;
         this.hMeaning = hMeaning;
@@ -60,14 +60,14 @@ public class Saying {
                 ", eMeaning='" + eMeaning + '\'' +
                 '}';
     }
-}
+    }
 
-// Balanced tree structure to maintain an ordered set of sayings:
-import java.util.ArrayList;
-import java.util.List;
+    // Balanced tree structure to maintain an ordered set of sayings:
+    import java.util.ArrayList;
+    import java.util.List;
 
-class BinarySearchTree {
     // Class representing a node in the binary search tree 
+    class BinarySearchTree {
     private class Node {
         Saying saying;
         Node left, right;
@@ -151,16 +151,16 @@ class BinarySearchTree {
         }
         searchByWord(node.right, word, sayings);
     }
-}
+    }
 
-// Implementing query functions:
+    // Implementing query functions:
 
-import java.util.HashMap; 
-import java.util.List; 
-import java.util.Map; 
+    import java.util.HashMap; 
+    import java.util.List; 
+    import java.util.Map; 
 
-// Database of sayings using a binary search tree 
-public class SayingDatabase {
+    // Database of sayings using a binary search tree 
+    public class SayingDatabase {
     // Binary search tree for storing the sayings 
     private BinarySearchTree tree = new BinarySearchTree();
 
@@ -210,16 +210,16 @@ public class SayingDatabase {
     public List<Saying> getAllSayings() {
         return tree.getAllSayings();
     }
-}
+    }
 
-// Printing and testing out the functionality 
+    // Printing and testing out the functionality 
 
-public class Main {
-    public static void main(String[] args) {
-        SayingDatabase database = new SayingDatabase();
-        // Sample sayings
-        Saying saying1 = new Saying("Aia i ka huki ʻulua", "There is the fishing of the ulua", "Explanation in Hawaiian", "Explanation in English");
-        Saying saying2 = new Saying("Hiki i ke kanaka", "It can be done by a person", "Explanation in Hawaiian", "Explanation in English");
+    public class Main {
+        public static void main(String[] args) {
+            SayingDatabase database = new SayingDatabase();
+            // Sample sayings
+            Saying saying1 = new Saying("Aia i ka huki ʻulua", "There is the fishing of the               ulua", "Explanation in Hawaiian", "Explanation in English");
+            Saying saying2 = new Saying("Hiki i ke kanaka", "It can be done by a person",                 "Explanation in Hawaiian", "Explanation in English");
 
         // Insert sayings into the database
         database.insert(saying1);
@@ -243,6 +243,5 @@ public class Main {
             System.out.println(saying);
         }
     }
-}
-'''
+    }
 
