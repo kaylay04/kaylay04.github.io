@@ -218,8 +218,8 @@ Implementing functions for specific queries like finding sayings that contain pa
         public static void main(String[] args) {
             SayingDatabase database = new SayingDatabase();
             // Sample sayings
-            Saying saying1 = new Saying("Aia i ka huki ʻulua", "There is the fishing of the               ulua", "Explanation in Hawaiian", "Explanation in English");
-            Saying saying2 = new Saying("Hiki i ke kanaka", "It can be done by a person",                 "Explanation in Hawaiian", "Explanation in English");
+            Saying saying1 = new Saying("Aia i ka huki ʻulua", "There is the fishing of the ulua", "Explanation in Hawaiian", "Explanation in English");
+            Saying saying2 = new Saying("Hiki i ke kanaka", "It can be done by a person", "Explanation in Hawaiian", "Explanation in English");
 
         // Insert sayings into the database
         database.insert(saying1);
