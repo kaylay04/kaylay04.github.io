@@ -112,7 +112,7 @@ summary: "Chooses a optimal army using the divide and conquer algorithm."
         else:
             return [], 0, 0
 
-    "These lines of code split the list of `units` into two halves: `left_units` containing the first half of the units up to but not including the middle (`mid`), and `right_units` containing the units from the middle (`mid`) to the end of the list. This splitting is typically used in divide-and-conquer algorithms to divide a problem into smaller subproblems for processing."
+    /*These lines of code split the list of `units` into two halves: `left_units` containing the first half of the units up to but not including the middle (`mid`), and `right_units` containing the units from the middle (`mid`) to the end of the list. This splitting is typically used in divide-and-conquer algorithms to divide a problem into smaller subproblems for processing. */
     
     mid = len(units) // 2
     left_units = units[:mid]
