@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/Tree.jpg
-title: "Balanced Trees"
+title: "Hawaiian Dictionary"
 date: 2024
 published: true
 labels:
