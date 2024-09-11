@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: "Importance Of SMART Questions"
-date: 2024-09-05
+date: 2024-09-11
 published: true
 labels:
   - Software Engineering
