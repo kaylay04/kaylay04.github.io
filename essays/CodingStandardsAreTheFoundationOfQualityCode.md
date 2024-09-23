@@ -8,7 +8,6 @@ labels:
   - Coding Standards
   - Software Development
 ---
-
 Coding standards are often considered as the fine details of software development that minor visual aspects such as indentation or brace placements. While these may seem trivial, coding standards extend far beyond visual preferences. They can serve as the backbone of maintainable, scalable, and robust software. Not only do they enforce consistency and readability, but they also serve as an effective learning tool for developers, especially when learning a new language or framework.
 
 On the surface, coding standards might seem like a set of rules that developers follow to maintain uniformity. But, they contribute to much more than that. For example, ESLint, is a widely used tool for enforcing coding standards in JavaScript and TypeScript. When I first started using ESLint with VSCode, I thought it would simply flag errors and help me correct basic syntax issues. But in practice, ESLint does more than that, it also teaches new things and encourages the user to problem solve. When ESLint points out an error, it can guide you toward better practices. It forces you to adhere to language-specific patterns that you might otherwise overlook. For instance, ESLint’s suggestions on avoiding unused variables or preferring const over let where possible can nudge developers toward writing cleaner, more efficient code. In this way, coding standards facilitate an immersive learning process, where you gradually internalize language rules through consistent application.
