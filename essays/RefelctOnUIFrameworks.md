@@ -26,3 +26,8 @@ When I first started using [Bootstrap 5](https://getbootstrap.com/docs/5.0/getti
 
 Personally, one of my favorite aspects of Bootstrap 5 is the flexibility it has. While the framework provides a default styling for components, it does not limit you into using them how they come. You are able to easily override the default styles with your own CSS, allowing you to create unique designs while still benefiting from the Bootstrap’s structure. For example, in one of the assignments I did, I got to recreate the visuals of Stüssy, where I utilized Bootstrap’s grid system and card components for the layout. I was able to customize the card design using my own CSS, but without worrying about creating the responsive structure from scratch. What would have taken me hours to do with CSS took just minutes with Bootstrap, giving me more time to focus on other areas of the project.
 
+**Original**
+![Results](/img/stussy_original.jpg)
+**Recreation**
+![Results](/img/stussy_recreation.jpg)
+
