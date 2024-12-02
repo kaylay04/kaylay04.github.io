@@ -19,7 +19,7 @@ First introduced by the ["Gang of Four"](http://www.uml.org.cn/c++/pdf/DesignPat
 - **Structural Patterns:** How do you compose objects to form larger structures? Patterns like Adapter and Decorator answer this.
 - **Behavioral Patterns:** How do objects interact and communicate? Observer and Strategy are among the answers.
 
-<img src="/img/DesignPatterns.jpg" alt="Picture of Design Patterns" width="500"/>
+<img src="/img/DesignPatterns.jpg" alt="Picture of Design Patterns" width="800" height="500"/>
 Source: https://www.netsolutions.com/insights/software-design-pattern/
 
 ### Building My Own Systems: How I’ve Used Design Patterns
