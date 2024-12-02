@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: "Blueprints for Success: Decoding Design Patterns in Software Development"
-date: 2024-10-10
+date: 2024-12-05
 published: true
 labels:
   - Design Patterns
