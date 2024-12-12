@@ -17,7 +17,7 @@ AI has undeniably revolutionized the world, proving to be a highly versatile and
 
 ### II. Personal Experience with AI:
 
-## 1. Experience WODs e.g. E18
+# 1. Experience WODs e.g. E18
 
 I did not rely on ChatGPT or any AI tools for the experience WODs. I believe it’s important to take on the challenge of navigating uncertainty and finding the solution independently, as this is how I learn best. Additionally, if you’re unable to complete an experience WOD, most of them had a solution video, which makes using ChatGPT or AI unnecessary.
 
