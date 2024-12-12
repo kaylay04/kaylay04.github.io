@@ -71,6 +71,8 @@ I did not use ChatGPT or AI for quality assurance. I did feel though that some o
 
 14. Other uses in ICS 314 not listed
 
+I did not use AI in ICS 314 outside of the prompts already listed.
+
 # III. Impact on Learning and Understanding:
 
 AI is definitely a powerful tool that can enhance people’s learning experience. ChatGPT and AI did help me understand and learn more from this class, since I was not using it to help provide answers to code with it. Instead, I would use it to teach me how to do things and guide me through how to do things. Additionally, anywhere in the technology field  where you may encounter problems that people are not readily available to help you solve, AI could assist in that struggle.
