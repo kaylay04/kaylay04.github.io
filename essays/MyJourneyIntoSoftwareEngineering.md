@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "My Journey Into Software Engineering"
 date: 2024-09-05
-published: true
+published: false
 labels:
   - Software Engineering
   - Introduction
