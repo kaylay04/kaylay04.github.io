@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "A Joyful Learning Experience Through Typescript"
 date: 2024-09-05
-published: true
+published: false
 labels:
   - Typescript
   - Athletic Software Engineering
