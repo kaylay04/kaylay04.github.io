@@ -6,8 +6,8 @@
     "email": "kyoung22@hawaii.edu",
     "phone": "808-358-3536",
     "website": "https://kaylay04.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2026.",
-    "location": { "address": "", "postalCode": "96816", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "summary": "Hi! My name is Kayla Young and I am studying for a B.S. in Computer Science on the Security Science Track in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2026.",
+    "location": { "address": "1205 17th Avenue", "postalCode": "96816", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "LinkedIn", "username": "Kayla Young", "url": "https://www.linkedin.com/in/kayla-young-92a968321/" },
       { "network": "GitHub", "username": "kaylay04", "url": "https://www.linkedin.com/in/kayla-young-92a968321/" }
@@ -22,20 +22,28 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Typescript", "Python" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Typescript", "Python", "CSS", "HTML" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Windows", "Git/GitHub" ]
+      "keywords": [ "MacOS", "Windows", "Git/GitHub", "Visual Studio Code", "Eclipse" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2026)",
+      "area": "Computer Science on the Security Science Track (expected Spring, 2026)",
       "studyType": "B.S.",
       "startYear": "2022",
       "endDate": "Present",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Sacred Hearts Academy",
+      "studyType": "High School Diploma",
+      "startYear": "2014",
+      "endDate": "2022",
       "courses": [
       ]
     }
@@ -45,8 +53,8 @@
       "company": "AFA CyberPatriot",
       "position": "Instructor - Beginner and Advanced CyberCamp",
       "website": "",
-      "startDate": "August 2019",
-      "endDate": "May 2022",
+      "startDate": "2019",
+      "endDate": "2022",
       "summary": "Taught at CyberCamps at Sacred Hearts Academy.",
       "highlights": [
         "Guided middle to high school students in understanding and securing Windows operating systems through interactive activities and challenges.", 
