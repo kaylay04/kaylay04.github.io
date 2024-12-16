@@ -72,16 +72,19 @@ Users can sign up or sign in to the application using their existing account, or
 
 ### Contact Us Page
 Users can contact us as developers through the form, with suggestions for improvement, questions, or ideas for other appliances/filters the application could include.
+
 <img src="/img/CampusCooking/contact-us-page.jpg" width="350" height="250"/>
 
 
 ### About Us Page
 Users can learn more about the developers and the purpose of the application.
+
 <img src="/img/CampusCooking/about-us-page.jpg" width="350" height="250"/>
 
 ### Admin Dashboard
 
 Admins have additional privileges. They get an overview over every recipes and can monitor them by deleting not appropriate recipes or editing them. 
+
 <img src="/img/CampusCooking/admin_monitor_page.jpg" width="350" height="250"/>
 
 <img src="/img/CampusCooking/admin_delete_recipe.jpg" width="350" height="250"/>
