@@ -7,7 +7,7 @@
     "phone": "808-358-3536",
     "website": "https://kaylay04.github.io",
     "summary": "Hi! My name is Kayla Young and I am studying for a B.S. in Computer Science on the Security Science Track in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2026.",
-    "location": { "address": "1205 17th Avenue", "postalCode": "96816", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": { "address": "", "postalCode": "96816", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "LinkedIn", "username": "Kayla Young", "url": "https://www.linkedin.com/in/kayla-young-92a968321/" },
       { "network": "GitHub", "username": "kaylay04", "url": "https://www.linkedin.com/in/kayla-young-92a968321/" }
