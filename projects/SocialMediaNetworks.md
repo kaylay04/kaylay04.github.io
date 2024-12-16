@@ -12,6 +12,35 @@ labels:
 summary: "This code initializes a graph to represent users and their posts, adding nodes for users and posts and creating edges for relationships like authorship, comments, and views. It includes functions to identify and highlight the top 10 important posts, interesting users, and trending posts based on comments and views. Additionally, it adds edges for quoted or referred posts. This code also displays the results, showing the important posts, interesting users, and trending posts."
 ---
 
+This project focuses on designing and implementing a graph to model the structure and interactions within a social media platform. The graph representation helps capture the relationships between users and posts, making it easier to analyze user activity, post popularity, and interactions between content. By organizing data into a graph structure, we can efficiently retrieve information such as important posts, interesting users, and interactions between content. The graph consists of nodes, representing users and posts, and edges, representing relationships such as authored posts, comments, and views.
+
+# Overview of the Project
+
+The core structure of this project is a graph, where nodes represent users and posts, and edges represent interactions such as authored posts, comments, and views. Each user has their own profile, including attributes like age, gender, region, and a list of posts, comments, and views. Posts, on the other hand, have a unique _post_id_ and contain content along with information on who commented on or viewed them. This project models the interactions in the social media space, including user engagement and content influence.
+
+# Implementation Details 
+
+The graph is structured as an object containing two primary components: _nodes_ and _edges_. The _nodes_ object is a dictionary where each key is a node ID (either a user or post), and the value is an object containing information about the node's attributes. The _edges_ list stores relationships between nodes in the form of objects that define the direction (from one node to another) and the type of relationship (e.g., _authored_, _commented_, _viewed_, _quotes_, or _referred_). This structure allows the graph to represent complex relationships and interactions between users and posts.
+
+# Core Functionalities
+
+There are several core functions designed to handle the graph operations. The _addNode_ function is used to add nodes for both users and posts. Each user’s node contains information such as their name, age, gender, and location, along with a list of their posts, comments, and views. Each post node stores the content, comments, views, and its relationships with other posts. The _addEdge_ function creates edges between users and posts (for authorship), between users and other users' posts (for comments and views), and between posts that reference or quote other posts.
+
+Additionally, the _getImportantPosts_ function retrieves posts based on a sorting criterion, such as views or comments, to help identify the most influential posts in the network. The _getInterestingUsers_ function finds interesting users based on their engagement level, such as the total number of comments or views across their posts. Lastly, the _addQuotedReferredEdges_ function handles posts that quote or refer to other posts, creating additional connections between content and allowing users to trace the influence of one post on another. 
+
+# Contribution to the Project
+
+For this project, I was responsible for implementing the core graph structure and the methods for managing the nodes and edges. I designed and developed the functions for adding nodes, representing users and posts, and creating edges to define relationships such as authorship, comments, and views. Additionally, I implemented the functionality to handle quoted and referred posts, which adds a layer of complexity to the graph and allows for a more connected content network. These contributions helped to ensure the graph accurately represented user interactions and post dynamics.
+
+# What I Learned From This
+
+Working on this project taught me several key lessons related to graph theory, data structures, and user interaction modeling. First, I deepened my understanding of graphs and how they can be used to model real-world social networks. Creating and managing relationships between users and posts highlighted the power of graphs in representing complex interactions in a way that is easy to manipulate and analyze. I also gained a deeper appreciation for sorting and filtering data in a meaningful way. For example, retrieving the most popular posts or the most engaged users through sorting allowed me to understand how data structures can be used to provide meaningful insights and recommendations.
+
+Additionally, I improved my skills in working with recursive methods and traversing graphs effectively. Implementing features like searching for quotes and references required me to explore how posts and users can be connected in multiple ways, leading to a richer representation of social media dynamics. Overall, this project enhanced my understanding of graph-based data structures and their applications in analyzing social media data, while also honing my ability to design and implement scalable, efficient algorithms for real-world data management problems.
+
+Output: 
+<img src="/img/SocialMediaNetworks.jpg" alt="Output for Social Media Networks code." width="auto" height="auto"/>
+
     Justine Afaga
     Alexis Karl Buted
     Kayla Young
