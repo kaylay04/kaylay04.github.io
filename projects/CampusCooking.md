@@ -6,157 +6,188 @@ title: "CampusCooking"
 date: 2024
 published: true
 labels:
-  - Divide and Conquer
-  - Algorithms
-  - Python
-summary: "Chooses a optimal army using the divide and conquer algorithm."
+  - HTML
+  - CSS
+  - React
+  - Typescript
+  - Next.js
+summary: "Campus Cooking is an application that helps campus students make affordable, healthy, and accessible meals. It provides students with recipes that respect common constraints such as limited kitchen resources, limited cooking skills, limited time, and limited access to grocery stores."
 ---
-    Choosing an Optimal Army Using Divide and Conquer
+# Campus Cooking
 
-    Explanation: Divide and conquer would be a good algorithm for choosing an optimal army configuration from codices with a points budget because of its ability to manage complexity effectively while optimizing unit selection. 
-    By dividing the problem into smaller subsets based on unit attributes and combat roles, such as speed, armor, and damage capabilities, this approach allows for independent optimization within each subset. Having this division ensures that the chosen units are thoroughly evaluated for their effectiveness. 
-    Additionally, divide and conquer scales well with increasing numbers of codices and units. 
+## Table of contents
 
-    Data Structure: Using lists for storing units in a divide and conquer approach is good for its simplicity, easy manipulation, and efficient indexing, which is essential for splitting the units into subproblems. 
-    Lists maintain order, help in recursive division, and provide a O(1) time complexity for accessing elements. 
-    Recursive splitting is central to the divide and conquer approach, as it breaks down the problem into manageable chunk and combines solutions efficiently to respect the point budget while maximizing effectiveness. 
+* [Overview](#overview)
+* [User Guide](#user-guide)
+* [Milestones](#milestones)
+* [Deployment](#deployment)
+* [Community Feedback](#community-feedback)
+* [Team](#team)
 
-    Proof of Effectiveness: The divide and conquer algorithm ensures that all possible combinations of units are considered within the points constraint by recursively breaking down the problem into smaller subproblems. 
-    This method systematically looks at all the subsets of units and assesses their total point costs and effectiveness, which take a long time to handle in large data sets. 
-    By dividing the unit list into smaller sections, the algorithm can efficiently manage and evaluate each subset, ensuring that no potential combination is overlooked. The merging function helps this process by combining the optimal solutions from these subproblems. 
-    It evaluates the combined point costs and effectiveness of every possible pair of left and right solutions, ensuring that the best possible combination of units is selected. 
-    Therefore, the merging function guarantees that the final selected combination is the most effective one, balancing both the points constraint and the overall combat capability of the units.
+## Overview
 
-    Justine Afaga
-    Alexis Karl Buted
-    Kayla Young 
+Campus Cooking is an application that helps campus students make affordable, healthy, and accessible meals. It provides students with recipes that respect common constraints such as limited kitchen resources, limited cooking skills, limited time, and limited access to grocery stores.
 
-    /* The `Unit` class constructor initializes an object with attributes representing a unit's name, speed, wounds, armor, shooting accuracy, shooting damage, close combat accuracy, close combat damage, and point cost. Each attribute is assigned a value based on the parameters provided when creating a new `Unit` instance. */
+### Key Features
 
-    class Unit:
-        def __init__(self, name, speed, wounds, armor, shooting_accuracy, shooting_damage, close_combat_accuracy, close_combat_damage, point_cost):
-        self.name = name
-        self.speed = speed
-        self.wounds = wounds
-        self.armor = armor
-        self.shooting_accuracy = shooting_accuracy
-        self.shooting_damage = shooting_damage
-        self.close_combat_accuracy = close_combat_accuracy
-        self.close_combat_damage = close_combat_damage
-        self.point_cost = point_cost
+* Recipes designed for basic kitchen setups, primarily using a toaster oven or microwave.
+* Ingredients that are easy to find within walking distance of campus.
+* Customizable filters for dietary preferences (e.g., vegan, gluten-free).
+* Estimated cost and serving size for each recipe.
+* Estimated preparation time for each recipe.
 
-    /* This code creates a list of `Unit` objects, each initialized with specific attributes such as name, speed, wounds, armor, shooting accuracy, shooting damage, close combat accuracy, close combat damage, and point cost. Each `Unit` instance in the list represents a unique unit with distinct characteristics used for later calculations and simulations. */
+### Purpose
 
-    units = [
-        Unit("Unit1", 5, 10, 0.8, 0.9, 20, 0.7, 15, 100),
-        Unit("Unit2", 6, 8, 0.7, 0.85, 18, 0.75, 12, 80),
-        Unit("Unit3", 4, 12, 0.75, 0.8, 22, 0.6, 18, 120),
-        Unit("Unit4", 7, 7, 0.65, 0.9, 19, 0.8, 14, 70),
-        Unit("Unit5", 3, 15, 0.85, 0.78, 25, 0.5, 20, 150),
-        Unit("Unit6", 8, 6, 0.6, 0.92, 17, 0.85, 13, 60),
-        Unit("Unit7", 5, 9, 0.7, 0.88, 20, 0.75, 16, 90),
-        Unit("Unit8", 4, 11, 0.8, 0.83, 21, 0.65, 17, 110),
-        Unit("Unit9", 6, 10, 0.9, 0.86, 18, 0.78, 14, 95),
-        Unit("Unit10", 7, 8, 0.65, 0.87, 16, 0.8, 15, 85),
-    ]
+Many campus students resort to fast food or vending machine snacks due to limited resources, which impacts both their health and budget. Campus Cooking aims to improve student nutrition and support a healthier lifestyle by making cooking accessible and affordable.
 
-    /* The `calculate_effectiveness` function computes the effectiveness of a unit by multiplying its number of wounds by its shooting damage and then adding its close combat damage. This gives a single numerical value representing the unit's overall combat capability. */
+## User Guide
 
-    def calculate_effectiveness(unit):
-        return unit.wounds * unit.shooting_damage + unit.close_combat_damage
+This section provides an overview of Campus Cooking's main features and how students, vendors, and admins can interact with the system.
 
-    /* The function `calculate_effectiveness(unit)` computes the combat effectiveness of a unit based on its wounds, shooting damage, and close combat damage. The `Combat(unitA, unitB, distance)` function compares two units (`unitA` and `unitB`) based on their calculated shooting or close combat effectiveness, depending on the specified distance, and returns the unit with higher effectiveness in simulated combat. */
+### Landing Page
 
-    def Combat(unitA, unitB, distance):
-        if distance > 5:
-            # At long range, shooting matters more
-            shooting_effectiveness_A = unitA.shooting_accuracy * unitA.shooting_damage
-            shooting_effectiveness_B = unitB.shooting_accuracy * unitB.shooting_damage
-        else:
-            # Up close, close combat matters more
-            shooting_effectiveness_A = unitA.close_combat_accuracy * unitA.close_combat_damage
-            shooting_effectiveness_B = unitB.close_combat_accuracy * unitB.close_combat_damage
-    
-        total_effectiveness_A = shooting_effectiveness_A * unitA.wounds
-        total_effectiveness_B = shooting_effectiveness_B * unitB.wounds
-    
-        return unitA if total_effectiveness_A > total_effectiveness_B else unitB
+The landing page introduces new users to Campus Cooking, with easy navigation to sign up or sign in.
+This page will also include a place to browse recipes and posts via the grid view.
 
-    /* The `Battle` function simulates a battle between two armies (`armyA` and `armyB`) based on the cumulative effectiveness of their respective units. It sums up the               effectiveness of each unit in both armies using the `calculate_effectiveness` function and then determines the outcome based on which army has a higher total effectiveness, returning 'Army A wins' if `effectiveness_A` is greater, otherwise 'Army B wins'. */
+![](images/landing-page-1.png)
+![](images/landing-page-2.png)
+![](images/landing-page-3.png)
+![](images/landing-page-4.png)
 
-    def Battle(armyA, armyB, battlefieldF):
-        effectiveness_A = sum(calculate_effectiveness(unit) for unit in armyA)
-        effectiveness_B = sum(calculate_effectiveness(unit) for unit in armyB)
-    
-        return "Army A wins" if effectiveness_A > effectiveness_B else "Army B wins"
 
-    /* The `merge_solutions` function combines two sets of solutions (`left_solutions` and `right_solutions`) from a divide-and-conquer algorithm to find the best combination of armies that fit within a maximum points constraint (`max_points`). It iterates through all possible combinations of left and right solutions, calculating their combined points and effectiveness. It keeps track of the best army configuration (`best_army`) and its effectiveness (`best_effectiveness`) that meets the criteria, finally returning these optimal values. */
+### Recipe Search and Filters
 
-    def merge_solutions(left_solutions, right_solutions, max_points):
-        best_army = []
-        best_effectiveness = 0
+The recipe search page allows students to explore a variety of meals and snacks, with filters for dietary restrictions and ingredient availability. Each recipe page includes:
+- Step-by-step instructions
+- A list of ingredients, prices, and sources
+- Dietary tags (e.g., vegan, gluten-free)
+- Estimated preparation time and servings
+User are also able to add their own recipes to the database via the add recipe page, which will be accessible only to logged in users, and the posts will be reviewed by admins when added to the database.
+![](images/add-recipe-page.png)
+![](images/search-recipe-page-1.png)
+![](images/search-recipe-page-2.png)
 
-    for l_army, l_points, l_effectiveness in left_solutions:
-        for r_army, r_points, r_effectiveness in right_solutions:
-            total_points = l_points + r_points
-            if total_points <= max_points:
-                total_effectiveness = l_effectiveness + r_effectiveness
-                if total_effectiveness > best_effectiveness:
-                    best_army = l_army + r_army
-                    best_effectiveness = total_effectiveness
+### Login Page 
+Users can sign up or sign in to the application using their existing account, or create an account with their email and password.
+![](images/login-signup-page.png)
 
-    return best_army, best_effectiveness
+### Contact Us Page
+Users can contact us as developers through the form, with suggestions for improvement, questions, or ideas for other appliances/filters the application could include.
+![](images/contact-us-page.png)
 
-    /* The `optimal_army_divide_and_conquer` function recursively finds the best combination of units within a specified maximum points constraint (`max_points`). It returns the optimal army configuration, total points used, and its effectiveness if there's only one unit or no units that fit within the points constraint. */
+### About Us Page
+Users can learn more about the developers and the purpose of the application.
+![](images/about-us-page.png)
 
-    def optimal_army_divide_and_conquer(units, max_points):
-        if not units or max_points <= 0:
-            return [], 0, 0
+### Admin Dashboard
 
-    if len(units) == 1:
-        unit = units[0]
-        if unit.point_cost <= max_points:
-            return [unit], unit.point_cost, calculate_effectiveness(unit)
-        else:
-            return [], 0, 0
+Admins have additional privileges. They get an overview over every recipes and can monitor them by deleting not appropriate recipes or editing them. 
+![](images/admin_monitor_page.png)
 
-    /*These lines of code split the list of `units` into two halves: `left_units` containing the first half of the units up to but not including the middle (`mid`), and `right_units` containing the units from the middle (`mid`) to the end of the list. This splitting is typically used in divide-and-conquer algorithms to divide a problem into smaller subproblems for processing. */
-    
-    mid = len(units) // 2
-    left_units = units[:mid]
-    right_units = units[mid:]
+![](images/admin_delete_recipe.png)
 
-    "These lines of code demonstrate the recursive approach in the `optimal_army_divide_and_conquer` function. It divides the problem of selecting the optimal army into smaller subproblems by recursively calling itself with `left_units` and `right_units`. It then merges the solutions from these subproblems using the `merge_solutions` function to find the best combination of units within the `max_points` constraint. Finally, it returns the best army configuration (`best_army`), the total points used by that configuration, and its effectiveness."
+![](images/admin_edit_recipe.png)
 
-    left_solution = [optimal_army_divide_and_conquer(left_units, max_points)]
-    right_solution = [optimal_army_divide_and_conquer(right_units, max_points)]
 
-    best_army, best_effectiveness = merge_solutions(left_solution, right_solution, max_points)
+### Github Organization
 
-    return best_army, sum(unit.point_cost for unit in best_army), best_effectiveness
+Here is a link to our GitHub [organization](https://github.com/Campus-Cooking) associated with this project and inside it, the repositories
 
-    /* These lines of code set `max_points` to 300, then use the `optimal_army_divide_and_conquer` function to find the best combination of units (`optimal_units`) within this points constraint from the `units` list. It also calculates `total_points` and `total_effectiveness` of the optimal army configuration. Finally, it creates `optimal_units_list`, which stores tuples containing the name, point cost, and effectiveness of each unit in the optimal army. */
+## Milestones
 
-    max_points = 300
+### Milestone 1 
 
-    optimal_units, total_points, total_effectiveness = optimal_army_divide_and_conquer(units, max_points)
+For Milestone 1, we delivered the initial version of our system be deploying it to [Vercel](https://campus-cooking.vercel.app/), creating a landing page with clear purpose, login area, and mockups for additional pages. We managed development using GitHub Issues and a "M1" project board, adhering to Issue Driven Project Management (IDPM) practices.
 
-    optimal_units_list = [(unit.name, unit.point_cost, calculate_effectiveness(unit)) for unit in optimal_units]
+You can watch our Milestone 1 project board [here](https://github.com/orgs/Campus-Cooking/projects/1/views/6).
 
-    /* The provided code snippet first prints detailed information about the units in the optimal army configuration, including their names, costs, and effectiveness. It then simulates combat between two specific units and a battle between predefined armies, displaying the outcomes of these simulated scenarios. */
 
-    print("Optimal Army:")
-    for unit in optimal_units:
-        print(f"{unit.name} - Cost: {unit.point_cost}, Effectiveness: {calculate_effectiveness(unit)}")
-    print(f"Total Effectiveness: {total_effectiveness}")
 
-    print("\nCombat:")
-    winner = Combat(units[0], units[1], 10)
-    print(f"Winner: {winner.name}")
+### Milestone 2
 
-    print("\nBattle:")
-    armyA = [units[0], units[1], units[2]]
-    armyB = [units[3], units[4]]
-    result = Battle(armyA, armyB, "Field")
-    print(result)
+For Milestone 2, we will significantly enhance our system's functionality and quality by implementing at least four fully functional pages, including database integration for reading and writing data. We will gaian use GitHub Issues and a "M2" project board. 
+
+You can watch our Milestone 2 project board [here](https://github.com/orgs/Campus-Cooking/projects/5/views/6).
+
+For Milestone 2 we have implemented these pages in our system:
+* Home Page
+* Log in and Sign up Page
+* View Recipe Page
+* Add Recipe Page (only accessible for logged in users)
+* Contact Page
+
+
+### Milestone 3 
+
+The purpose of Milestone 3 is to polish the codebase, address any remaining UI issues, and ensure a smooth user experience. This final pass involved debugging, enhancing styling, and improving overall functionality.
+
+You can watch our Milestone 3 project board [here](https://github.com/orgs/Campus-Cooking/projects/8).
+
+# Developer Guide
+
+## Overview
+
+This Developer Guide provides instructions for developers to set up, run, and modify the Campus Cooking application. Follow these steps to clone the repository, configure dependencies, and customize the system as needed.
+
+## Prerequisites
+
+Before setting up the project, ensure you have the following installed on your system:
+
+- **Node.js** (version 16 or above)
+- **npm** (Node Package Manager, bundled with Node.js)
+- **Git** (for version control)
+- **Vercel CLI** (optional, for deployment)
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+1. Open your terminal or command prompt.
+2. Run the following command to clone the repository:
+
+   ```
+   git clone https://github.com/Campus-Cooking/campus-cooking.git
+    ```
+   
+### 2. Install dependencies
+1. Open your terminal or command prompt.
+2. Run the following command to clone the repository:
+
+   ```
+   npm install
+   ```
+
+### 3. Start the development server:
+
+   ```
+   npm run dev
+   ```
+ 
+This will launch the application at http://localhost:3000.
+
+### GitHub Hosting Guidlines
+We are committed to adhering to GitHub's hosting guidelines by ensuring our repository complies with all terms of service and community standards. This includes using GitHub responsibly to store and share code, respecting intellectual property rights, maintaining appropriate content, and avoiding prohibited uses such as illegal, malicious, or harmful activities. By following these guidelines, we aim to foster a safe, collaborative, and professional environment for our project and the broader GitHub community.
+
+## Deployment
+Our system has been deployed on Vercel, you can access it by clicking [here](https://campus-cooking.vercel.app/).
+
+The app in production is successfully writing to database when signing up and adding recipes. It is successfully reading from database when logging in users.
+
+## Community Feedback
+
+Users appreciate the clean, modern design and student-friendly approach, highlighting the focus on simple recipes that use basic kitchen appliances like microwaves and toaster ovens. Features like dietary filters, estimated costs, serving sizes, and step-by-step instructions make cooking approachable and affordable for students with limited time and resources.
+
+Users would like to see new features added in the future, like a "quick meals" or "5-ingredient recipes" section, difficulty ratings, nutritional information, and a way to save or favorite recipes. Adding community-driven elements like comments, reviews, and ratings could enhance engagement, while streamlined recipe submission and consistency in page layouts would improve usability.
+
+Overall, the feedback suggests that the site effectively solves a major problem for students by making cooking accessible and affordable. While there’s room for added functionality and community-building features, the core concept resonates well, making it a valuable resource for those new to cooking.
+
+## Team
+
+Campus Cooking is designed, created and built by [Anaya Cole](https://anayaemily.github.io/), [Lindsey Clement](https://lindseynclement.github.io/), [Christina Holthe](https://chrshol.github.io/) and [Kayla Young](https://kaylay04.github.io/). 
+
+#### Team Contract
+You can watch our team contract [here](https://docs.google.com/document/d/1IeZ3gzcvCw6sXPzIBjEe9HSV4btgJgGbPfj0qyVp7VA/edit?tab=t.0#heading=h.ahjfca2rpk54).
+
+
+
 
