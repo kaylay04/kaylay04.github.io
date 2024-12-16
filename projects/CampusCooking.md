@@ -73,10 +73,10 @@ User are also able to add their own recipes to the database via the add recipe p
 <img src="/img/CampusCooking/search-recipe-page-2.jpg" width="350" height="250"/>
 
 
-
-
 ### Login Page 
+
 Users can sign up or sign in to the application using their existing account, or create an account with their email and password.
+
 
 <img src="/img/CampusCooking/login-signup-page.jpg" width="350" height="250"/>
 
