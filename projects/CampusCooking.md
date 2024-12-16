@@ -60,9 +60,9 @@ The recipe search page allows students to explore a variety of meals and snacks,
 - Dietary tags (e.g., vegan, gluten-free)
 - Estimated preparation time and servings
 User are also able to add their own recipes to the database via the add recipe page, which will be accessible only to logged in users, and the posts will be reviewed by admins when added to the database.
-<img src="/img/CampusCooking/add-recipe-page.jpg" width="1000" height="500"/>
-<img src="/img/CampusCooking/search-recipe-page-1.jpg" width="1000" height="500"/>
-<img src="/img/CampusCooking/search-recipe-page-2.jpg" width="1000" height="500"/>
+<img src="/img/CampusCooking/add-recipe-page.jpg" width="650" height="600"/>
+<img src="/img/CampusCooking/search-recipe-page-1.jpg" width="650" height="500"/>
+<img src="/img/CampusCooking/search-recipe-page-2.jpg" width="650" height="500"/>
 
 
 
