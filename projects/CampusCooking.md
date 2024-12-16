@@ -75,7 +75,7 @@ Users can contact us as developers through the form, with suggestions for improv
 
 ### About Us Page
 Users can learn more about the developers and the purpose of the application.
-![](img/CampusCooking/about-us-page.png)
+![](img/CampusCooking/about-us-page.jpg)
 
 ### Admin Dashboard
 
