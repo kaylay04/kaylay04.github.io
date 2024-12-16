@@ -60,33 +60,33 @@ The recipe search page allows students to explore a variety of meals and snacks,
 - Dietary tags (e.g., vegan, gluten-free)
 - Estimated preparation time and servings
 User are also able to add their own recipes to the database via the add recipe page, which will be accessible only to logged in users, and the posts will be reviewed by admins when added to the database.
-<img src="/img/CampusCooking/add-recipe-page.jpg" width="650" height="600"/>
-<img src="/img/CampusCooking/search-recipe-page-1.jpg" width="650" height="350"/>
-<img src="/img/CampusCooking/search-recipe-page-2.jpg" width="650" height="350"/>
+<img src="/img/CampusCooking/add-recipe-page.jpg" width="350" height="250"/>
+<img src="/img/CampusCooking/search-recipe-page-1.jpg" width="350" height="250"/>
+<img src="/img/CampusCooking/search-recipe-page-2.jpg" width="350" height="250"/>
 
 
 
 ### Login Page 
 Users can sign up or sign in to the application using their existing account, or create an account with their email and password.
-<img src="/img/CampusCooking/login-signup-page.jpg" width="500" height="500"/>
+<img src="/img/CampusCooking/login-signup-page.jpg" width="350" height="250"/>
 
 ### Contact Us Page
 Users can contact us as developers through the form, with suggestions for improvement, questions, or ideas for other appliances/filters the application could include.
-<img src="/img/CampusCooking/contact-us-page.jpg" width="1000" height="500"/>
+<img src="/img/CampusCooking/contact-us-page.jpg" width="350" height="250"/>
 
 
 ### About Us Page
 Users can learn more about the developers and the purpose of the application.
-<img src="/img/CampusCooking/about-us-page.jpg" width="1000" height="500"/>
+<img src="/img/CampusCooking/about-us-page.jpg" width="350" height="250"/>
 
 ### Admin Dashboard
 
 Admins have additional privileges. They get an overview over every recipes and can monitor them by deleting not appropriate recipes or editing them. 
-<img src="/img/CampusCooking/admin_monitor_page.jpg" width="1000" height="500"/>
+<img src="/img/CampusCooking/admin_monitor_page.jpg" width="350" height="250"/>
 
-<img src="/img/CampusCooking/admin_delete_recipe.jpg" width="1000" height="500"/>
+<img src="/img/CampusCooking/admin_delete_recipe.jpg" width="350" height="250"/>
 
-<img src="/img/CampusCooking/admin_edit_recipe.jpg" width="1000" height="500"/>
+<img src="/img/CampusCooking/admin_edit_recipe.jpg" width="350" height="250"/>
 
 
 ### Github Organization
