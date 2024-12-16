@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/CampusCooking/CampusCookingLogo.jpg
-title: "CampusCooking"
+title: "Campus Cooking"
 date: 2024
 published: true
 labels:
