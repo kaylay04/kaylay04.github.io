@@ -39,7 +39,7 @@ Working on this project taught me several key lessons related to graph theory, d
 Additionally, I improved my skills in working with recursive methods and traversing graphs effectively. Implementing features like searching for quotes and references required me to explore how posts and users can be connected in multiple ways, leading to a richer representation of social media dynamics. Overall, this project enhanced my understanding of graph-based data structures and their applications in analyzing social media data, while also honing my ability to design and implement scalable, efficient algorithms for real-world data management problems.
 
 Output: 
-<img src="img/NetworkOutput.jpg" alt="Output for Social Media Networks code." width="auto" height="auto"/>
+<img src="/img/NetworkOutput.jpg" alt="Output for Social Media Networks code." width="auto" height="auto"/>
 
     Justine Afaga
     Alexis Karl Buted
