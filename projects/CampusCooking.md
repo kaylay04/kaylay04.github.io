@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/CampusCookingLogo.jpg
+image: img/CampusCooking/CampusCookingLogo.jpg
 title: "CampusCooking"
 date: 2024
 published: true
@@ -49,10 +49,10 @@ This section provides an overview of Campus Cooking's main features and how stud
 The landing page introduces new users to Campus Cooking, with easy navigation to sign up or sign in.
 This page will also include a place to browse recipes and posts via the grid view.
 
-![](images/landing-page-1.png)
-![](images/landing-page-2.png)
-![](images/landing-page-3.png)
-![](images/landing-page-4.png)
+![](img/CampusCooking/landing-page-1.png)
+![](img/CampusCooking//landing-page-2.png)
+![](img/CampusCooking/landing-page-3.png)
+![](img/CampusCooking//landing-page-4.png)
 
 
 ### Recipe Search and Filters
@@ -63,30 +63,30 @@ The recipe search page allows students to explore a variety of meals and snacks,
 - Dietary tags (e.g., vegan, gluten-free)
 - Estimated preparation time and servings
 User are also able to add their own recipes to the database via the add recipe page, which will be accessible only to logged in users, and the posts will be reviewed by admins when added to the database.
-![](images/add-recipe-page.png)
-![](images/search-recipe-page-1.png)
-![](images/search-recipe-page-2.png)
+![](img/CampusCooking/add-recipe-page.png)
+![](img/CampusCooking/search-recipe-page-1.png)
+![](img/CampusCooking//search-recipe-page-2.png)
 
 ### Login Page 
 Users can sign up or sign in to the application using their existing account, or create an account with their email and password.
-![](images/login-signup-page.png)
+![](img/CampusCooking/login-signup-page.png)
 
 ### Contact Us Page
 Users can contact us as developers through the form, with suggestions for improvement, questions, or ideas for other appliances/filters the application could include.
-![](images/contact-us-page.png)
+![](img/CampusCooking/contact-us-page.png)
 
 ### About Us Page
 Users can learn more about the developers and the purpose of the application.
-![](images/about-us-page.png)
+![](img/CampusCooking/about-us-page.png)
 
 ### Admin Dashboard
 
 Admins have additional privileges. They get an overview over every recipes and can monitor them by deleting not appropriate recipes or editing them. 
-![](images/admin_monitor_page.png)
+![](img/CampusCooking/admin_monitor_page.png)
 
-![](images/admin_delete_recipe.png)
+![](img/CampusCooking/admin_delete_recipe.png)
 
-![](images/admin_edit_recipe.png)
+![](img/CampusCooking/admin_edit_recipe.png)
 
 
 ### Github Organization
