@@ -51,7 +51,7 @@ Overall, this project strengthened my problem-solving skills, reinforced key pro
 
 
 Output: 
-<img src="/img/HawaiianDictionaryOutput.jpg" alt="Output for Hawaiian Dictionary code." width="auto" height="auto"/>
+<img src="/img/HawaiianDictionaryOutput.jpg" alt="Output for Hawaiian Dictionary code." width="1000" height="500"/>
 
 
     // Group: Justine Afaga, Blake Ilagan, Kayla Young
