@@ -1,8 +1,8 @@
 ---
 layout: project
 type: project
-image: img/ArmyBuilding.jpg
-title: "Army Building"
+image: img/CampusCookingLogo.jpg
+title: "CampusCooking"
 date: 2024
 published: true
 labels:
