@@ -13,6 +13,47 @@ insertion, lookup, and retrieval of sayings based on certain requirements. Use a
 Implementing functions for specific queries like finding sayings that contain particular words in either language."
 ---
 
+This project focuses on designing and implementing a binary search tree (BST) to manage and search through Hawaiian and English sayings. By organizing the sayings in a BST, we can store the data efficiently and provide a way to retrieve them in sorted order or search by specific keywords with optimal performance. Below is an explanation of how the BST is structured, its functionalities, and the specific contribution to its development.
+
+# Overview of the Project
+
+The _BinarySearchTree_ class is at the core of this project. Each node in the tree stores a _Saying_ object, which contains a Hawaiian phrase and its English translation. Nodes are organized based on the Hawaiian text of the sayings, with smaller values placed in the left subtree and larger values in the right subtree. This ensures that the tree remains sorted, making it an efficient structure for both insertion and retrieval operations. 
+
+The class includes several essential methods:
+- _insert:_ This method inserts new sayings into the tree while maintaining the correct ordering. It uses a recursive helper function to determine the appropriate position for each new saying.
+- _getAllSayings:_ This method retrieves all sayings from the tree in alphabetical order by performing an in-order traversal.
+- _searchByWord:_ This method searches the tree for sayings that contain a specific word, either in their Hawaiian or English text, and returns a list of matches.
+
+# Implementation Details
+The private inner class _Node_ is used to encapsulate each tree node, containing a Saying object and references to the left and right child nodes. The _BinarySearchTree_ class itself manages the root node and provides public methods for interacting with the tree. Each operation leverages recursion to traverse the tree effectively, taking advantage of its inherent hierarchical structure.
+
+Here is a deeper dive into the core functionality:
+- Insertion: The _insert_ method allows for seamless addition of new sayings. When called, it delegates the work to a private recursive helper function that navigates the tree. Based on the comparison of Hawaiian text, the helper function determines whether the new saying should be placed in the left or right subtree. This ensures that the tree remains properly sorted and allows future operations to be carried out efficiently.
+- Retrieving All Sayings: The _getAllSayings_ method uses an in-order traversal to retrieve sayings in alphabetical order by their Hawaiian text. This traversal visits the left subtree, processes the current node, and then visits the right subtree. As a result, the method compiles the sayings in sorted order, making it ideal for displaying all entries in a human-readable format.
+- Search by Word: The _searchByWord_ method enables users to search for sayings containing a specific word. It performs a recursive traversal of the tree, checking each node’s Hawaiian and English text for matches. If a match is found, the saying is added to a results list. This feature is especially useful for finding relevant phrases based on partial input.
+
+# Contribution to the Project
+For this project I did the implementation of the _BinarySearchTree_ class which provides the foundation for storing and querying sayings. The recursive methods for insertion, traversal, and search demonstrate a deep understanding of BST operations and their application to real-world data management problems.
+
+Additionally, the ability to search by both Hawaiian and English words ensures accessibility and practicality, allowing users to interact with the data intuitively. The combination of sorted retrieval and keyword-based search makes the BST a versatile and powerful data structure for this application.
+
+# What I Learned From This
+
+Working on this project taught me several important lessons, both technical and conceptual. First, I deepened my understanding of binary search trees (BSTs) and their practical applications in organizing and retrieving data efficiently. Implementing recursive methods for insertion and traversal helped me appreciate the elegant design of tree-based structures and the power of recursion in solving hierarchical problems.
+
+I also learned how to apply sorting principles when structuring data, ensuring that the tree remained organized by the Hawaiian text. This reinforced the importance of maintaining order for fast and reliable operations like searching and in-order traversal.
+
+Debugging and refining the code taught me the importance of attention to detail, such as correctly initializing lists and handling null nodes during traversal. These small but critical aspects underscored the importance of writing robust and error-free code in real-world applications.
+
+Beyond the technical aspects, I gained insight into designing data structures to support user-friendly features. For example, allowing users to search sayings by either Hawaiian or English words showed me the importance of considering end-user needs during development.
+
+Overall, this project strengthened my problem-solving skills, reinforced key programming concepts, and gave me a deeper appreciation for how data structures can make cultural content more accessible and meaningful.
+
+
+Output: 
+<img src="/img/HawaiianDictionaryOutput.jpg" alt="Output for Hawaiian Dictionary code." width="500"/>
+
+
     // Group: Justine Afaga, Blake Ilagan, Kayla Young
     /* Creating a class that holds the Hawaiian and English sayings, in addition to the definition: Representing a Hawaiian saying along with its English translations and explanations */
 
