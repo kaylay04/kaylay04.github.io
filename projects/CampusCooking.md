@@ -13,8 +13,6 @@ labels:
   - Next.js
 summary: "Campus Cooking is an application that helps campus students make affordable, healthy, and accessible meals. It provides students with recipes that respect common constraints such as limited kitchen resources, limited cooking skills, limited time, and limited access to grocery stores."
 ---
-# Campus Cooking
-
 ## Table of contents
 
 * [Overview](#overview)
