@@ -47,7 +47,7 @@ This section provides an overview of Campus Cooking's main features and how stud
 The landing page introduces new users to Campus Cooking, with easy navigation to sign up or sign in.
 This page will also include a place to browse recipes and posts via the grid view.
 
-<img src="/img/CampusCooking/landing-page-1.jpg" width="350" height="250"/>
+<img src="/img/CampusCooking/landing-page-1.jpg" width="500" height="350"/>
 
 <img src="/img/CampusCooking/landing-page-2.jpg" width="350" height="250"/>
 
