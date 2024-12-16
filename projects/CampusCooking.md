@@ -67,7 +67,7 @@ User are also able to add their own recipes to the database via the add recipe p
 
 ### Login Page 
 Users can sign up or sign in to the application using their existing account, or create an account with their email and password.
-<img src="/img/CampusCooking/login-signup-page.jpg" width="1000" height="500"/>
+<img src="/img/CampusCooking/login-signup-page.jpg" width="750" height="500"/>
 
 ### Contact Us Page
 Users can contact us as developers through the form, with suggestions for improvement, questions, or ideas for other appliances/filters the application could include.
